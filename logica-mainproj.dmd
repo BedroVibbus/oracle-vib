@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logica-mainproj" id="2A944CE9-8FFA-AAAF-712E-615BD7325BAD" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 10:54:55 UTC</createdTime>
+<ownerDesignName>logica-mainproj</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2A944CE9-8FFA-AAAF-712E-615BD7325BAD</designId>
+</OSDM_Design>
