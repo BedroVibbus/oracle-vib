@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42FBCFB3-5A25-7755-F6FD-4D22266663D1" name="FUNCIONARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:06:36 UTC</createdTime>
+<ownerDesignName>logica-mainproj</ownerDesignName>
+<engineerTo>
+<item key="D1E0E994-BC4D-9F1E-7716-452EE02D6B97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="FC7F4778-34DB-AEF5-A29A-38EE47DD5635">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:08:59 UTC</createdTime>
+<ownerDesignName>logica-mainproj</ownerDesignName>
+<engineerTo>
+<item key="D1E0E994-BC4D-9F1E-7716-452EE02D6B97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="4DAAF489-0F59-0E0E-F720-4411F2BCC6DD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:11:04 UTC</createdTime>
+<ownerDesignName>logica-mainproj</ownerDesignName>
+<engineerTo>
+<item key="D1E0E994-BC4D-9F1E-7716-452EE02D6B97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARGO" id="45F9B9A3-8AB3-F92D-7354-CD16165E1A89">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:14:09 UTC</createdTime>
+<ownerDesignName>logica-mainproj</ownerDesignName>
+<engineerTo>
+<item key="D1E0E994-BC4D-9F1E-7716-452EE02D6B97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO" id="012DF983-7180-1CD0-6257-AF84BC162D85">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:18:29 UTC</createdTime>
+<ownerDesignName>logica-mainproj</ownerDesignName>
+<engineerTo>
+<item key="D1E0E994-BC4D-9F1E-7716-452EE02D6B97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATADECONTRATACAO" id="D888C0C6-3C33-A102-0176-DF40608C4F83">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:20:46 UTC</createdTime>
+<ownerDesignName>logica-mainproj</ownerDesignName>
+<engineerTo>
+<item key="D1E0E994-BC4D-9F1E-7716-452EE02D6B97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="752D52AA-8A36-16C1-F5BA-02C219FC38FA" name="FUNCIONARIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:20:42 UTC</createdTime>
+<ownerDesignName>logica-mainproj</ownerDesignName>
+<engineerTo>
+<item key="D1E0E994-BC4D-9F1E-7716-452EE02D6B97" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC7F4778-34DB-AEF5-A29A-38EE47DD5635</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
